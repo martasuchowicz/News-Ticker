@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    line-height: 1;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+/* a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: lightskyblue;
+} */
+
+/* Top container */
+
+#ticker-top {
+    overflow: hidden;
+    /* border: 2px solid gray; */
+    height: 2.5rem;
+    position: relative;
+    background-color: gray;
+}
+
+#headlines {
+    white-space: nowrap;
+    position: absolute;
+    left: 98%;
+    top: 25%;
+}
+
+#headlines a {
+    padding-right: 40px;
+}
+
+/* Bottom container */
+
+#ticker-footer {
+    overflow: hidden;
+    height: 2.5rem;
+    background-color: teal;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer {
+    white-space: nowrap;
+    position: absolute;
+    right: 98%;
+    top: 25%;
+}
+
+#footer a {
+    padding-left: 40px;
+}
